@@ -14,7 +14,7 @@ const Trending = () => {
     resul();
   }, []); 
 
-  return movie.map((el) => (
+return   movie.map((el) => (
     
     <div>
       <br />

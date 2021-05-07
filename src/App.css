@@ -347,3 +347,46 @@ margin-top: -2rem;
   margin-bottom: 35px;
 }
 
+.kala .select-btn{
+  display: flex;
+  justify-content: center;
+  background-color: #e50914;
+}
+.kala{
+  background-color: #e50914;
+}
+
+.abdrahmen .fili{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+}
+
+
+.abdrahmen .fili .background_6{
+  padding: 20px;
+
+}
+#select-btn{
+  background-color: #e50914;
+color: #ffffff;
+padding: 6px;
+border: #000000 1px solid;
+border-radius: 8%;
+margin-left: 16rem;
+}
+#browsers{
+  background-color:#e50914;
+  color: #ffffff;
+  border: #000000 1px solid;
+
+}
+.fili{
+  background-color: #e50914;
+}
+
+#brow{
+  display: flex;
+  justify-content: center;
+  background-color: #e50914;
+}
