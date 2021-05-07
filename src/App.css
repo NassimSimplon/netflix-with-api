@@ -5,21 +5,49 @@ body {
 
 .logi {
   width: 9rem;
+  
+}
+
+.nava{
+  overflow: hidden;
+  position: fixed;
+  z-index:1;
 }
 #serch {
   border-top: none;
   border-right: none;
   border-left: none;
-
+color:white;
+background-color:transparent;
   border-bottom: 3px solid red;
+  margin-left:5rem;
+ 
 }
+
 #serch::placeholder {
-  /* Internet 
-  Explorer 10-11 */
+ 
   color: rgb(255, 255, 255);
   margin-bottom: 25px;
 }
 
+#serch-drop{
+background-color:white;
+display:flex;
+
+
+margin-left:32rem;
+width:13rem;
+margin-top: -2rem;
+}
+.serch-tit{
+  font-size:19px;
+
+
+}
+
+.serch-img{
+  width:100px;
+}
 /*---------------------------------------------navbar and titles---------------------------*/
 
 .ap {
@@ -64,6 +92,13 @@ body {
   display: flex;
   justify-content: center;
 }
+
+
+#heart{
+  color:#e50914;
+}
+
+
 
 /*-----------------------------------------------apropo section --------------------------*/
 .apropo {
@@ -270,6 +305,15 @@ body {
   align-content: center;
 }
 
+.bara{
+  display:flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+
 .final {
   color: #e50914;
   background-color: #e50914;
@@ -302,3 +346,4 @@ body {
 .glob {
   margin-bottom: 35px;
 }
+

@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 
 import { useState, useEffect } from "react";
-imp
+
 const Trending = () => {
   const [movie, setMovie] = useState([]),
     resul = () => {
@@ -15,6 +15,7 @@ const Trending = () => {
   }, []); 
 
   return movie.map((el) => (
+    
     <div>
       <br />
       <br />
@@ -41,8 +42,9 @@ const Trending = () => {
               <span className="fa fa-star checke "></span>
             </div>
             <div className="buy_ticket">
-              <a href="#">
+              <a OnClick="">
                 <span>WATCH NOW</span>
+                
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
