@@ -1,0 +1,276 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  /*----------------------------------navbar-----------------------------*/
+  .logi {
+    width: 9rem;
+    
+  }
+  .nava{
+    overflow: hidden;
+    z-index:1;
+  }
+  #plus{
+      float: right;
+      color: #e50914;
+      margin-top: 2rem;
+      margin-right: 2rem;
+
+  }
+  #serch {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  color:white;
+  background-color:transparent;
+    border-bottom: 3px solid red;
+    margin-right: 8.7rem;
+  }
+  .all{
+    margin-top: -8rem;
+  }
+  
+  #serch::placeholder {
+   
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+  }
+  #serch-drop{
+    background-color:white;
+    display:flex;
+    
+    
+    margin-left:34rem;
+    width:13rem;
+    margin-top: -2rem;
+    }
+    .serch-tit{
+      font-size:19px;
+    
+    
+    }
+    
+    .serch-img{
+      width:100px;
+    }
+    
+    #heart{
+      color:#e50914;
+    }
+/*-------------------------------------Cards------------------------------------*/  
+
+
+
+.background_6 {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .imdb_card {
+    width: 350px;
+    height: 550px;
+    background: #000000;
+    border-radius: 2px;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .movie_poster {
+    width: 350px;
+    height: 350px;
+    position: relative;
+  }
+  
+  .movie_poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .movie_label {
+    position: absolute;
+    bottom: -37.5px;
+    background: #e50914;
+    color: white;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+  }
+  
+  .movie_label h2,
+  .movie_label h4 {
+    margin: 0;
+  }
+  
+  .movie_label h2 {
+    font-size: 28px;
+    margin-top: -3px;
+  }
+  
+  .movie_label h4 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  .movie_content {
+    width: 100%;
+    height: calc(100% - 350px);
+    padding: 45px 40px 0 30px;
+  }
+  
+  .mov_specs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+  
+  .mov_specs i {
+    font-size: 16px;
+    margin-right: 8px;
+    color: #ffd014;
+  }
+  
+  .mov_specs p {
+    white-space: pre;
+  }
+  
+  .mov_description {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+  
+  .mov_description h3 {
+    margin-top: 6px;
+  }
+  
+  .buy_ticket {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+  }
+  
+  .buy_ticket a {
+    display: flex;
+    align-items: center;
+    background: #e50914;
+    color: #f5c518;
+    text-decoration: none;
+    width: 210px;
+    height: 45px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .buy_ticket a:hover {
+    background: #e50914;
+  }
+  
+  .buy_ticket  a:first-child {
+    width: calc(100% - 60px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  
+  .buy_ticket  a:last-child {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px dashed #121212;
+  }
+  
+  .buy_ticket a:last-child svg {
+    width: 25px;
+  }
+  
+  /* DAY 5 -------------------*/
+  .checked {
+    color: orange;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .checke {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .tit-start {
+    color: orange;
+  }
+  .tran-tit {
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+  }
+  
+  .ding {
+    font-size: 3rem;
+    background-color: transparent;
+    color: #e50914;
+    padding: 35px;
+
+  margin-top: 4rem;
+  }
+  
+  .tren-sec {
+    display: flex;
+  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+  }
+  
+  .bara{
+    display:flex;
+  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+.delete{
+    background-color: #e50914;
+    border:none;
+    color: #fff;
+    
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+  }
+  #pen{
+      font-size: 10px;
+  }
+  #add-movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#add-movies input{
+  margin-bottom: 10px;
+  width: 29rem;
+  padding: 3px;
+}
+#secondary{
+  background-color: #e50914;
+  border: none;
+}

@@ -9,7 +9,6 @@ export default function Desc() {
           <Col md={3}></Col>
           <Col md={6}>
             <h1 className="text-white mt-5 text-center" id="h1">
-             
               <strong>Films, séries TV et bien plus en illimité.</strong>
             </h1>
             <p className="text-white mt-3 text-center" id="p">

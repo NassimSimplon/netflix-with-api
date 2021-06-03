@@ -19,11 +19,8 @@ function Apropo() {
           <Col md={6} className="apro-sec">
             <img src="/imgs/cho.jpg" alt="cho" className="cho " />
           </Col>
-          
         </Row>
-        
       </Container>
-      
     </div>
   );
 }

@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.514)),
+  url("./back.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+min-height: 670px;
+background-attachment: fixed;
     
 }
 
