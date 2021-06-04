@@ -15,7 +15,10 @@ const Update = ({ el, movie, setMovie }) => {
     const{name,value}= e.target
     setInput({...input,[name]:value})
   };
+  const relaodPage=()=>{
+    window.location.reload()
 
+  }
   const updateMovie = (el) => {
     axios
       .put(
@@ -25,6 +28,8 @@ const Update = ({ el, movie, setMovie }) => {
       .then((response) => {
         setInput(response.data);
       })
+      .then(res=>relaodPage())
+
       .catch((err) => console.log(err));
     console.log("updateuuuuuuuuuuueeeeeee", input);
   };

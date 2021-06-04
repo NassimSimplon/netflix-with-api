@@ -84,7 +84,7 @@ export default function Dashp({ movie, setData, data, delta, sub, setMovie }) {
             <br />
             <br />
 
-            <div className="background_6 " key={movie[el].id}>
+            <div className="background_6 ">
               <div className="imdb_card">
                 <div className="movie_poster">
                   <img src={movie[el].poster} alt="tv" />

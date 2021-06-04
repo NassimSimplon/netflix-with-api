@@ -10,6 +10,7 @@ import Dashp from "./dashbord/dash";
 
 import Nava from "./components/Navbar";
 function App() {
+ 
   {
     /************************************GET Movies With Axios / Get****************************************/
   }
@@ -51,6 +52,10 @@ function App() {
   {
     /************************************DELETE Movie With AXIOS***************************************/
   }
+  const relaodPage=()=>{
+    window.location.reload()
+
+  }
   const delta = (id) => {
     axios
       .delete(
@@ -58,7 +63,7 @@ function App() {
       )
       .then((res) => {
         console.log(res.data);
-      });
+      }).then(res=>relaodPage());
   };
 
   const [data, setData] = useState({
@@ -76,17 +81,15 @@ function App() {
       .post(
         `https://movie-app-57731-default-rtdb.firebaseio.com/movie.json`,
         JSON.stringify(data)
-      )
+      ).then(res=>relaodPage())
       .then((res) => {
         console.log(res.data);
       });
   };
-  const [sug, setSug] = useState([]);
+  const [sug, setSug] = useState(false);
 
   const chage = (e) => {
-
       setSug(e.target.value);
-    
   };
   return (
     <div className="ap">

@@ -24,12 +24,12 @@ function Home({ movie, getFav, getpfav, chage, sug }) {
       <div className="tran-tit ">
         <strong className=" ding">
           Trending Movies
-          <br />
+       
         </strong>
       </div>
       <div className="kala ">
-        <br />
-        <br />
+        
+        
         <Filter
           movie={movie}
           sug={sug}

@@ -17,6 +17,10 @@ useEffect(() => {
         setPageFav(b);
       });
 }, []);
+const relaodPage=()=>{
+  window.location.reload()
+
+}
 const fasa = (id) => {
   axios
     .delete(
@@ -24,7 +28,7 @@ const fasa = (id) => {
     )
     .then((res) => {
       console.log(res.data);
-    });
+    }).then(res=>relaodPage());
 };
   return (
     <div>

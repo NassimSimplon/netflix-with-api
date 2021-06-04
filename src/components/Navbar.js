@@ -7,6 +7,7 @@ import logi from "../logi.png";
 import "../App.css";
 
 const Nava = ({ movie, fav, setMovie, chage, sug }) => {
+  
   return (
     <div className="all mt-2">
       <Navbar className="hani" variant="dark">
@@ -48,8 +49,14 @@ const Nava = ({ movie, fav, setMovie, chage, sug }) => {
       </Navbar>
 
       {Object.keys(movie)
-        .filter((x) => x.title == sug)
-        .map((el) => (
+        .filter(x => {
+          if(sug === ''){
+            return ''
+          }else if(movie[x].title.toLowerCase().includes(sug)){
+          return x
+          }
+        })
+        .map(el => (
           <div key={movie[el].id}>
             <div id="serch-drop">
               <img src={movie[el].poster} alt="tv" className="serch-img  " />

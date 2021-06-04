@@ -22,7 +22,7 @@ background-color:transparent;
   margin-left:5.7rem;
 }
 #ava-serch{
-  margin-right: 4rem;
+  margin-right: 8.4rem;
 }
 #serch::placeholder {
  
@@ -144,7 +144,11 @@ margin-top: 4rem;
 margin-left: 11rem;
 
 }
-
+.new-serch{
+  display: flex;
+  justify-content: center;
+  margin-left: -10rem;
+}
 .abdrahmen .fili{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
